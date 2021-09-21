@@ -1,0 +1,33 @@
+REDIS COMMANDS
+
+SET keyname value -> to add a key value pair
+GET keyname -> to get vlue of a key
+DEL keyname -> To delete a key
+EXISTS keyname -> To check if a key EXISTS
+KEYS * -> tO get list of KEYS
+FLUSHALL -> To delete all KEYS
+TTL keyname -> check expiration date of key
+SETEX keyname time(ms) value -> to set key woth expiration date
+
+ARRAYS
+
+LPUSH/RPUSH -> to push at 0th or last index respectively
+LPOP/RPOP -> to pop from 0th or last index respectively
+LRANGE arrayname strt-index end-index -> Like aa for loop
+
+SETS (To avoid duplicate entries in array)
+
+SADD setname "value" -> adds set 
+SMEMBERS setname -> display all values
+
+HASHES (objects)
+
+HSET hashname key-of-object value -> To set a hash 
+HGET hashname key-of-object -> To get a hash value
+HGETALL hashname -> To get key and its value
+HDEL hashname key-of-obj -> To delete key from hash
+HEXISTS keyname key-of-obj -> checks existence
+
+
+
+
