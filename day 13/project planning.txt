@@ -1,0 +1,36 @@
+depends on no. of clients per second and budget
+    10k total user is 500 users/sec -> wix, php, wordpress (cost effective)
+    1L active users -> react, node 
+    more than 1L -> golang
+
+Prefer lesser no. of API calls. This can be done using graphQl. Also url of api in graphql does not change.
+The connection does not break while graphQL.
+
+performance, security, edge cases
+
+virtualisation -> send as much data as is required by the frontend. Use pagination or react virtualsation.
+
+use encryption to send dept data.
+
+AGILE METHODOLOGY 
+    waterall model: (obselete)
+        Launch the app when the app is completed.
+        This cannot be done now due to a lot of competition.
+        Has a large documentation.
+        Requirement gathering -> software design -> implementation -> verfication -> maintenance.
+    Agile: 
+        Each sprint has Requirement, design, develop, test, deploy, customer review, launch. 
+        Each sprint is 2-4 weeks.
+        Allows customer review.
+
+        Advantage:
+        More control
+        Better Productivity
+        Better Quality
+        Customer Satisfaction
+
+Jira software
+
+
+
+
